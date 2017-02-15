@@ -1,1 +1,472 @@
-hello world!
+<!DOCTYPE html>
+<!--[if lt IE 7]>    <html lang="en-US" dir="ltr" class=" lt-ie10 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>       <html lang="en-US" dir="ltr" class="lt-ie10 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>       <html lang="en-US" dir="ltr" class="lt-ie10 lt-ie9"> <![endif]-->
+<!--[if IE 9]>       <html lang="en-US" dir="ltr" class="lt-ie10"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en-US" dir="ltr" class="no-ie"> <!--<![endif]-->
+<head>
+	<!--[if IE]>
+	<meta http-equiv="X-UA-Compatible" content="IE=9,chrome=1" />
+	<![endif]-->
+	<meta charset="UTF-8" />
+	<title>前端工程师--喻文强</title>
+	<meta name="viewport" content="width=600" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="format-detection" content="telephone=no" />
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,700' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png" />
+	<!-- ColorBox Theme, you can use example1 - example5 -->
+	<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.4.3/example1/colorbox.css" />
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js"></script>
+</head>
+<body class="preload impress-not-supported">
+	<!--*** Loading animated ***-->
+	<div class="loading-panel">
+		<div class="loading">
+			<div id="loading-gif"></div>
+		</div>
+	</div>
+
+	<!--*** Menu ***-->
+	<div class="container-menu">
+		<nav class="mainmenu">
+			<ul>
+				<li>
+					<a class="fg-bgc" href="#profile">
+						<span class="img-menu" id="about-ico"></span>
+						<span class="txt-menu">我的信息</span>
+					</a>
+				</li>
+				<li>
+					<a class="fg-bgc" href="#resume">
+						<span class="img-menu" id="resume-ico"></span>
+						<span class="txt-menu">个人履历</span>
+					</a>
+				</li>
+				<li>
+					<a class="fg-bgc" href="#portfolio">
+						<span class="img-menu" id="portfolio-ico"></span>
+						<span class="txt-menu">项目经验</span>
+					</a>
+				</li>
+				<li>
+					<a class="fg-bgc" href="#contact">
+						<span class="img-menu" id="contact-ico"></span>
+						<span class="txt-menu">联系方式</span>
+					</a>
+				</li>
+				<li>
+					<a class="fg-bgc" href="#other">
+						<span class="img-menu" id="other-ico"></span>
+						<span class="txt-menu">其他</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+
+	<!--*** Pages ***-->
+	<div id="impress">
+		<!--*** Profile ***-->
+		<section class="profile_container cover step" id="profile" data-x="0" data-y="0">
+			<h1 class="cover"><span class="h1-text fg-bgc">喻文强的个人信息</span><span class="h1-corner fg-bdc"></span></h1>
+			<figure class="me left">
+				<div id="myqr">扫码加微信</div>
+				<div id="myimg"></div>
+			</figure>
+			<section class="personal-info right">
+				<!-- Personal info section -->
+				<ul>
+					<li>
+						<div class="label fg-bgc">姓名</div>
+						<div class="corner fg-bdc"></div>
+						<div class="text">喻文强</div>
+					</li>
+					<li>
+						<div class="label fg-bgc">生日</div>
+						<div class="corner fg-bdc"></div>
+						<div class="text">1996-06-24</div>
+					</li>
+					<li>
+						<div class="label fg-bgc">手机号码</div>
+						<div class="corner fg-bdc"></div>
+						<div class="text">18870836264</div>
+					</li>
+					<li>
+						<div class="label fg-bgc">邮箱</div>
+						<div class="corner fg-bdc"></div>
+						<div class="text"><a href="#contact">1098654043@qq.com</a></div>
+					</li>
+					<li>
+						<div class="label fg-bgc">博客地址</div>
+						<div class="corner fg-bdc"></div>
+						<div class="text"><a href="http://blog.csdn.net/yuwq123" target="_blank">http://blog.csdn.net/yuwq123</a></div>
+					</li>
+					<li>
+						<div class="label fg-bgc">现居住地</div>
+						<div class="corner fg-bdc"></div>
+						<div class="text">南昌市高新开发区</div>
+					</li>
+				</ul>
+			</section>
+			<section class="aboutme">
+				<hgroup>
+					<h2 class="f30">喻文强@不羁的狂鱼</h2>
+					<h2 class="f20">WEB前端工程师</h2>
+				</hgroup>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+			</section>
+		</section>
+		
+		<!--*** Resume ***-->
+		<section class="resume_container cover step" id="resume" data-x="1000" data-y="-500" data-z="-1500" data-rotate="10" >
+			<h1 class="cover"><span class="h1-text fg-bgc">我的履历</span><span class="h1-corner fg-bdc"></span></h1>
+			<!-- EXPERIENCE section -->
+			<section class="edu left">
+				<h2>工作经历</h2>
+				<ul class="edu-list">
+					<li>
+						<h3>Developer</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores rerum debitis beatae.</p>
+						<span>2001-2003</span>
+					</li>
+					<li>
+						<h3>CEO</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur modi quibusdam quas.</p>
+						<span>2002-2005</span>
+					</li>
+					<li>
+						<h3>Web Teacher</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae fuga necessitatibus atque.</p>
+						<span>2008-2009</span>
+					</li>
+					<li>
+						<h3>Chief Engineer</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum doloribus aperiam quod.</p>
+						<span>2012-2013</span>
+					</li>
+				</ul>
+			</section>
+			
+			<!-- EDUCATION section -->
+			<section class="job">
+				<h2>学历教育</h2>
+				<ul class="exp-list">
+					<li>
+						<h3>University of Cambridge</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas erat nunc.</p>
+						<span>2004-2008</span>
+					</li>
+					<li>
+						<h3>University of Cambridge</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+						<span>2009-2012</span>
+					</li>
+				</ul>
+			</section>
+
+				<!-- SKILLS section -->
+			<section class="skills">
+				<div class="graph-skill">
+					<!-- Choose a number between 0 to 100 for your skills -->
+					<ul>
+						<li class="fig1"><span class="bar-title">100</span></li>
+						<li class="fig2"><span class="bar-title">50</span></li>
+						<li class="fig3"><span class="bar-title">75</span></li>
+						<li class="fig4"><span class="bar-title">35</span></li>
+						<li class="fig5"><span class="bar-title">25</span></li>
+						<li class="fig6"><span class="bar-title">40</span></li>
+					</ul>
+				</div>
+				<div class="graph-title">
+					<ul>
+						<!-- Choose a test for your skills -->
+						<li><span class="graph-lable fig1"></span>HTML5</li>
+						<li><span class="graph-lable fig2"></span>CSS3</li>
+						<li><span class="graph-lable fig3"></span>1Styls</li>
+						<li><span class="graph-lable fig4"></span>JavaScript</li>
+						<li><span class="graph-lable fig5"></span>jQuery</li>
+						<li><span class="graph-lable fig6"></span>PHP</li>
+					</ul>
+				</div>
+			</section>
+		</section>
+
+		<!--*** Portfolio 1/2 ***-->
+		<section class="portfolio_container portfolio1 cover step" id="portfolio" data-x="-300" data-y="-1200" data-z="-3000">
+			<h1 class="cover"><span class="h1-text fg-bgc">项目经验 1/2</span><span class="h1-corner fg-bdc"></span></h1>
+			 <ul class="filter cover">
+				<li id="all1">All</li>
+				<li id="cat_01">Logo</li>
+				<li id="cat_02">Website</li>
+				<li id="cat_03">Poster</li>
+			</ul>
+
+			<!-- PORTFOLIO-LIST section -->
+			<ul id="portfolio-list" class="cover">
+				<li class="cat_01">
+					<a class="port_group" href="images/portfolio/1.jpg">
+						<img src="images/portfolio/thumb/1.jpg" width="200" height="140" alt="" />
+						<span></span>
+					</a>
+					<h3 class="title">title about your work</h3>
+					<p class="categorie">Categorie Name</p>
+				</li>
+				<li class="cat_03">
+					<a class="port_group" href="images/portfolio/2.jpg">
+						<img src="images/portfolio/thumb/2.jpg" width="200" height="140" alt="" />
+						<span></span>
+					</a>
+					<h3 class="title">title about your work</h3>
+					<p class="categorie">Categorie Name</p> 
+				</li>
+				<li class="cat_02">
+					<a class="port_group" href="images/portfolio/3.jpg">
+						<img src="images/portfolio/thumb/3.jpg" width="200" height="140" alt="" />
+						<span></span>
+					</a>
+					<h3 class="title">title about your work</h3>
+					<p class="categorie">Categorie Name</p> 
+				</li>
+				<li class="cat_02">
+					<a class="port_group" href="images/portfolio/4.jpg">
+						<img src="images/portfolio/thumb/4.jpg" width="200" height="140" alt="" />
+						<span></span>
+					</a>
+					<h3 class="title">title about your work</h3>
+					<p class="categorie">Categorie Name</p> 
+				</li>
+				<li class="cat_01">
+					<a class="port_group" href="images/portfolio/5.jpg">
+						<img src="images/portfolio/thumb/5.jpg" width="200" height="140" alt="" />
+						<span></span>
+					</a>
+					<h3 class="title">title about your work</h3>
+					<p class="categorie">Categorie Name</p> 
+				</li>
+				<li class="cat_02">
+					<a class="port_group" href="images/portfolio/6.jpg">
+						<img src="images/portfolio/thumb/6.jpg" width="200" height="140" alt="" />
+						<span></span>
+					</a>
+					<h3 class="title">title about your work</h3>
+					<p class="categorie">Categorie Name</p> 
+				</li>
+				<li class="cat_03">
+					<a class="port_group" href="images/portfolio/7.jpg">
+						<img src="images/portfolio/thumb/7.jpg" width="200" height="140" alt="" />
+						<span></span>
+					</a>
+					<h3 class="title">title about your work</h3>
+					<p class="categorie">Categorie Name</p> 
+				</li>
+				<li class="cat_01">
+					<a class="port_group" href="images/portfolio/8.jpg">
+						<img src="images/portfolio/thumb/8.jpg" width="200" height="140" alt="" />
+						<span></span>
+					</a>
+					<h3 class="title">title about your work</h3>
+					<p class="categorie">Categorie Name</p> 
+				</li>
+			</ul>
+		</section>
+
+		<!--*** Portfolio 2/2 ***-->
+		<section class="portfolio_container portfolio2 cover step" id="portfolio2" data-x="-300" data-y="-1200" data-z="-3200" data-rotate-y="180">
+			<h1 class="cover"><span class="h1-text fg-bgc">项目经验 2/2</span><span class="h1-corner fg-bdc"></span></h1>
+			 <ul class="filter cover">
+				<li id="all2">All</li>
+				<li id="cat_05">Art</li>
+				<li id="cat_06">WebSite</li>
+				<li id="cat_07">Other</li>
+			</ul>
+
+			<!-- PORTFOLIO-LIST section -->
+			<ul id="portfolio-list2" class="cover">
+				<li class="cat_05">
+					<a class="port_group" href="images/portfolio/9.jpg">
+						<img src="images/portfolio/thumb/9.jpg" width="200" height="140" alt="" />
+						<span></span>
+					</a>
+					<h3 class="title">title about your work</h3>
+					<p class="categorie">Categorie Name</p>
+				</li>
+				<li class="cat_06">
+					<a class="port_group" href="images/portfolio/10.jpg">
+						<img src="images/portfolio/thumb/10.jpg" width="200" height="140" alt="" />
+						<span></span>
+					</a>
+					<h3 class="title">title about your work</h3>
+					<p class="categorie">Categorie Name</p> 
+				</li>
+				<li class="cat_05">
+					<a class="port_group" href="images/portfolio/11.jpg">
+						<img src="images/portfolio/thumb/11.jpg" width="200" height="140" alt="" />
+						<span></span>
+					</a>
+					<h3 class="title">title about your work</h3>
+					<p class="categorie">Categorie Name</p> 
+				</li>
+				<li class="cat_06">
+					<a class="port_group" href="images/portfolio/12.jpg">
+						<img src="images/portfolio/thumb/12.jpg" width="200" height="140" alt="" />
+						<span></span>
+					</a>
+					<h3 class="title">title about your work</h3>
+					<p class="categorie">Categorie Name</p> 
+				</li>
+				<li class="cat_07">
+					<a class="port_group" href="images/portfolio/13.jpg">
+						<img src="images/portfolio/thumb/13.jpg" width="200" height="140" alt="" />
+						<span></span>
+					</a>
+					<h3 class="title">title about your work</h3>
+					<p class="categorie">Categorie Name</p> 
+				</li>
+				<li class="cat_07">
+					<a class="port_group" href="images/portfolio/14.jpg">
+						<img src="images/portfolio/thumb/14.jpg" width="200" height="140" alt="" />
+						<span></span>
+					</a>
+					<h3 class="title">title about your work</h3>
+					<p class="categorie">Categorie Name</p> 
+				</li>
+				<li class="cat_05">
+					<a class="port_group" href="images/portfolio/15.jpg">
+						<img src="images/portfolio/thumb/15.jpg" width="200" height="140" alt="" />
+						<span></span>
+					</a>
+					<h3 class="title">title about your work</h3>
+					<p class="categorie">Categorie Name</p> 
+				</li>
+				<li class="cat_07">
+					<a class="port_group" href="images/portfolio/16.jpg">
+						<img src="images/portfolio/thumb/16.jpg" width="200" height="140" alt="" />
+						<span></span>
+					</a>
+					<h3 class="title">title about your work</h3>
+					<p class="categorie">Categorie Name</p> 
+				</li>
+			</ul>
+		</section>
+
+		<!--*** Contact ***-->
+		<section class="contact_container cover step" id="contact" data-x="-1600" data-y="-600" data-z="-4700" data-rotate-z="10" data-rotate-y="180">
+			<h1 class="cover"><span class="h1-text fg-bgc">我的联系方式</span><span class="h1-corner fg-bdc"></span></h1>
+			
+			<!-- GOOGLE MAP -->
+			<div class="map left">
+				
+			</div>
+			
+			<!-- CONTACT FORM -->
+			<div class="form">
+				<form action="sendmail.php" class="right" id="contact-form" method="post" target='ifrm'>
+					<input id="name" placeholder="您的尊称" type="text" name="name" title="您的尊称" />
+					<input id="mail" placeholder="您的邮箱地址" type="text" name="mail" title="您的邮箱地址" />
+					<textarea id="msg" placeholder="您想对我说什么~~" name="msg" cols="40" rows="10" title="您想对我说什么~~"></textarea>
+					<input type="submit" value="发送" name="submit" class="fg-bgc" /><span class="corner submit fg-bdc"></span>
+				</form>
+				<iframe id='ifrm' name='ifrm'></iframe>
+				
+				<!-- CONTACT INFO -->
+				<div class="contact-info right">
+					<p id="e-mail">109865043@qq.com</p>
+					<p id="phone">18870836264</p>
+					<p id="website">www.zfulz.com</p>
+					<p id="address">南昌市高新开发区</p>
+				</div>
+			</div>
+		</section>
+
+		<!--*** Features ***-->
+		<section class="feature_container cover step" id="other" data-x="-1600" data-y="-600" data-z="-4500" data-rotate-z="-10">
+			<h1 class="cover"><span class="h1-text fg-bgc">其他信息</span><span class="h1-corner fg-bdc"></span></h1>
+			<section class="feature left">
+				<h2>Main Features</h2>
+				<ul class="feature-list">
+					<li>
+						<h3>3D Impressive Animation</h3>
+						<p>If you are useing a modern browser like chrome<br/>Then you can see all pages have full 3d animated.</p>
+					</li>
+					<li>
+						<h3>Multi color and pattern skins</h3>
+						<p>
+							<b>26</b> Color Skins.<br/>
+							<b>50</b> Background Images and Patterns.<br/>
+							<b>620</b> Free Google Web Font<br/>
+						</p>
+					</li>
+					<li>
+						<h3>Smart &amp; Simple Design</h3>
+						<p>Great, Modern and awesome design for future web users</p>
+					</li>
+					<li>
+						<h3>Valid and Clean Codes</h3>
+						<p>All HTML5 and CSS3 codes are fully validated and cleaned.</p>
+					</li>
+					<li>
+						<h3>Crossbrowser compatible, IE7 included</h3>
+						<p>
+							Google Chrome, Mozilla Firefox, Opera, Apple Safari<br/>
+							Google Android and Aplle IOS Browser compatibile.<br/>
+							New design for Fully Support in Internet Explorer 6-10.
+						</p>
+					</li>
+				</ul>
+			</section>
+			
+			<section class="more-feature">
+				<h2>Fully Customizable</h2>
+				<ul class="feature-list">
+					<li>
+						<h3>Full Editable Content</h3>
+						<p>You can edit all contents easily, no need for any Applications or special Skills.</p>
+					</li>
+					<li>
+						<h3>Add New Page</h3>
+						<p>
+							You can simply create a new page, Wherever you want.<br/>
+							All you have to do is just, set x,y,z &amp; 3D Rotate with Depth.
+							It will be animated automaticly !
+						</p>
+					</li>
+					<li>
+						<h3>Responsive 3D Design</h3>
+						<p>
+							Dimention, Zoom and 3D Animations will change automaticly in any screen resolution and device dpi. More Templates 
+						</p>
+					</li>
+					<li>
+						<h3>Ajax Contact Form</h3>
+						<p>
+							Send email with Ajax technology.<br/>
+							Google Map api
+						</p>
+					</li>
+					<li>
+						<h3>1 Page Design</h3>
+						<p>
+							All data is in 1 page, so the page just load once!
+						</p>
+					</li>
+				</ul>
+			</section>
+		</section>
+
+		<!-- If you want to have a overview you can simplay remove the comment -->
+		<!-- <section id="overview" class="step" data-x="0" data-y="-600" data-rotate-x="10" data-z="1000"></section> -->
+	</div>
+
+	<!--*** Scripts ***-->
+	<script type="text/javascript" src="script/jquery.min.js"></script>
+	<!--[if !IE]><!-->
+		<script type="text/javascript" src="script/impress.js"></script>
+	<!--<![endif]-->
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.colorbox/1.4.3/jquery.colorbox-min.js"></script>
+	<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
